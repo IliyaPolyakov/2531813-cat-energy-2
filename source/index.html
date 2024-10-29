@@ -5,6 +5,10 @@
     <title>Cat energy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.webmanifest">
     <script src="scripts/index.js" defer></script>
   </head>
   <body class="page">
@@ -160,7 +164,11 @@
       <div class="main-footer__wrapper">
         <div class="main-footer__contact">
           <a>
-            <img class="contacts-icon" src="/source/images/cat_energy_text.svg"  width="128" height="24" alt="кот енергия"/>
+            <picture>
+              <source media="(min-width:1200px)"  width="118" height="21" type="image/svg+xml"  srcset="/source/images/cat_energy_text.svg" alt="текст кот энергия" >
+            <img class="main-header__logo-text" src="/source/images/cat_energy_text.svg" width="101"
+            height="18" alt="текст кот энергия"/>
+          </picture>
           </a>
         </div>
         <div class="main-footer__social">
