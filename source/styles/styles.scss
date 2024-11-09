@@ -3,10 +3,33 @@
 @import "./common/global.scss";
 @import "./common/fonts.scss";
 
-/* BLOCKS */
-@import "./blocks/header.scss";
 
-// COMMON
+
 @import "common/variables";
-@import "common/common";
+@import "common/global";
 @import "common/fonts";
+
+// BLOCKS
+@import "blocks/page";
+@import "blocks/main-header";
+@import "block/navigation";
+@import "block/main-container";
+@import "block/product-program";
+@import "block/how-it-works";
+@import "block/example-case";
+@import "block/example-case__wrapper";
+@import "block/invitation";
+@import "block/invitation__wrapper";
+@import "block/main-footer";
+@import "block/main-container-catalog";
+@import "block/product-cards";
+@import "block/additional_products";
+@import "block/promotions_and_new_products";
+
+
+
+
+
+
+
+

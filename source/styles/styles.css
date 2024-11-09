@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* GLOBAL */
+/* здесь используйте глобальные переменные */
+/* здесь используйте глобальные селекторы img, body, html и так далее */
+/* здесь подключите шрифты */
+/* BLOCKS */
+.header {
+  background-color: #663399;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+/* здесь используйте глобальные переменные */
+/* здесь используйте глобальные селекторы img, body, html и так далее */
+/* здесь подключите шрифты */
+.header {
+  background-color: #663399;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.nav {
+  color: #ff0000;
+}
+
+/*# sourceMappingURL=styles.css.map */
