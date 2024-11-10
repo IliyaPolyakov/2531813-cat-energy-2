@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-ss<html lang="en">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -8,12 +8,12 @@ ss<html lang="en">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicons/180.png"><!-- 180×180 -->
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/build/styles/styles.css">
   <title>Каталог продукции</title>
 </head>
 <body>
-  <header class="main-header">
-    <nav class="navigation">
+  <header class="main-header-catalog">
+    <nav class="navigation-catalog">
       <a class="main-header__logo">
         <picture>
           <source width="70" height="59" type="image/svg+xml" media="(min-width:1440px)"
@@ -31,20 +31,6 @@ ss<html lang="en">
       <button class="open-menu" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
-      <ul class="navigation-list">
-        <li class="navigation-item navigation-item--current">
-          <a href="#">Главная</a>
-        </li>
-        <li class="navigation-item navigation-item--current">
-          <a href="#">Каталог продукции</a>
-        </li>
-        <li class="navigation-item navigation-item--current">
-          <a href="#">Подбор программы</a>
-        </li>
-      </ul>
-      <h1>Функциональное питание для котов</h1>
-      <p>Занялся собой? Займись котом!</p>
-      <a href="#" class="select-program">Подобрать программу</a>
     </nav>
   </header>
   <main class="main-container-catalog">
@@ -56,8 +42,7 @@ ss<html lang="en">
             <a class="cards-link" href="#">
               <h2 class="title-casrds-product">Cat Energy PRO 500 г</h2>
             </a>
-
-            <dl>
+            <dl class="table-catalog table-five-hundred-chiken">
               <dt>Масса</dt>
               <dd>500г</dd>
             </dl>
@@ -69,8 +54,7 @@ ss<html lang="en">
               <dt>цена</dt>
               <dd>700 &#8381;</dd>
             </dl>
-
-            <a class="order-button" href="#">заказать</a>
+              <a class="order-button" href="#">заказать</a>
           </div>
         </li>
         <li class="card-element">
@@ -79,7 +63,7 @@ ss<html lang="en">
               <h2 class="title-casrds-product">Cat Energy PRO 1000 г</h2>
             </a>
 
-            <dl>
+            <dl class="table-catalog  table-cat-one-thousand-chiken">
               <dt>Масса</dt>
               <dd>1000г</dd>
             </dl>
@@ -100,8 +84,7 @@ ss<html lang="en">
             <a class="cards-link" href="#">
               <h2 class="title-casrds-product">Cat Energy PRO 500 г</h2>
             </a>
-
-            <dl>
+           <dl class="table-catalog  table-five-hundred-fish">
               <dt>Масса</dt>
               <dd>500г</dd>
             </dl>
@@ -121,7 +104,7 @@ ss<html lang="en">
             <a class="cards-link" href="#">
               <h2 class="title-casrds-product">Cat Energy PRO 1000 г</h2>
             </a>
-            <dl>
+            <dl class="table-catalog  table-one-thousand-fish">
               <dt>Масса</dt>
               <dd>1000г</dd>
             </dl>
@@ -141,7 +124,7 @@ ss<html lang="en">
             <a class="cards-link" href="#">
               <h2 class="title-casrds-product">Cat Energy Slim 500 г</h2>
             </a>
-            <dl>
+            <dl class="table-catalog  table-five-hundred-buckwheat">
               <dt>Масса</dt>
               <dd>500г</dd>
             </dl>
@@ -161,7 +144,7 @@ ss<html lang="en">
             <a class="cards-link" href="#">
               <h2 class="title-casrds-product">Cat Energy Slim 1000 г</h2>
             </a>
-            <dl>
+            <dl class="table-catalog  table-one-thousand-buckwheat">
               <dt>Масса</dt>
               <dd>1000г</dd>
             </dl>
@@ -181,7 +164,7 @@ ss<html lang="en">
             <a class="cards-link" href="#">
               <h2 class="title-casrds-product">Cat Energy Slim 500 г</h2>
             </a>
-            <dl>
+            <dl class="table-catalog  table-five-hundred-rice">
               <dt>Масса</dt>
               <dd>500г</dd>
             </dl>
@@ -196,45 +179,45 @@ ss<html lang="en">
            <a class="order-button" href="#">заказать</a>
           </div>
         </li>
-        <li>
+        <li class="more-element">
           <a class="cards-link" href="#">
             <h2 class="title-casrds-product">Показать еще 100500 товаров</h2>
           </a>
-          <p>На самом деле вкусов гораздо больше!</p>
+          <p class="more-text-catalog">На самом деле вкусов гораздо больше!</p>
           <button class="button-cards" type="button">показать все</button>
         </li>
       </ul>
     </section>
     <section class="additional_products">
-      <h2>Допольнительные товары</h2>
-      <ul>
-        <li>
-          <p>Сахарозаменитель</p>
-          <dl>
+      <h2 class="additional-products-title">Допольнительные товары</h2>
+      <ul class="of-additional-products-list">
+        <li class="sugar-element">
+          <p class="additional-products-text sugar-substitute-text">Сахарозаменитель</p>
+          <dl class="table-catalog  table-sugar">
             <dt>1 упаковка (100 г)</dt>
             <dd>200 ₽</dd>
           </dl>
          <a class="order-button" href="#">заказать</a>
         </li>
-        <li>
-          <p>питьевая вода</p>
-           <dl>
+        <li class="water-element">
+          <p class="additional-products-text water-text" >питьевая вода</p>
+           <dl class="table-catalog  table-water">
             <dt>5 литров</dt>
             <dd>50 ₽</dd>
           </dl>
         <a class="order-button" href="#">заказать</a>
         </li>
-        <li>
-          <p>молоко</p>
-         <dl>
+        <li class="milk-element">
+          <p class="additional-products-text milk-text">молоко</p>
+         <dl class="table-catalog  table-milk">
             <dt>1 литр</dt>
             <dd>100 ₽</dd>
           </dl>
          <a class="order-button" href="#">заказать</a>
         </li>
-        <li>
-          <p>витамины</p>
-           <dl>
+        <li class="vitamins-element">
+          <p class="additional-products-text vitamins-text">витамины</p>
+           <dl class="table-catalog  table-vitamins">
             <dt>1 упаковка (30 г)</dt>
             <dd>300 ₽</dd>
           </dl>
@@ -242,30 +225,30 @@ ss<html lang="en">
         </li>
       </ul>
       <div>
-        <p>Закажите все и получите чехол для кота в подарок!</p>
+        <p class="orders-for-cat-text">Закажите все и получите чехол для кота в подарок!</p>
       </div>
     </section>
      <section class="promotions_and_new_products">
-      <h2>Акции и новинки</h2>
-      <p>
+      <h2 class="new-items-title" items>Акции и новинки</h2>
+      <p class="new-items-text">
         Подпишитесь на наши новости и не пропустите ни одного предложения!
       </p>
       <form method="post" action="https://echo.htmlacademy.ru">
         <label for="user-name"></label>
         <input id="user-name" type="email" required />
-        <button type="submit">подписаться</button>
+        <button class="subscribe-button" type="submit">подписаться</button>
       </form>
     </section>
-    <section class="invitation">
+    <section class="invitation-catalog">
       <div class="invitation__wrapper">
-        <h2 class="invitation__title">Приглашаем к сотруднечиству дилеров</h2>
+        <h2 class="invitation__title-catalog">Приглашаем к сотруднечиству дилеров</h2>
         <p class="invitation__address">
-          <a href="#" class="invitation__address-link">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</a>
+          <a href="#" class="invitation__address-link-catalog">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</a>
         </p>
       </div>
     </section>
   </main>
-  <footer class="main-footer">
+  <footer class="main-footer-catalog">
     <div class="main-footer__wrapper">
       <div class="main-footer__contact">
         <a>
