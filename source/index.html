@@ -10,10 +10,9 @@
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicons/180.png"><!-- 180×180 -->
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
-
 <body class="page">
   <header class="main-header">
     <nav class="navigation">
@@ -40,23 +39,25 @@
       </button>
       <ul class="navigation-list">
         <li class="navigation-item navigation-item--current">
-          <a href="#">Главная</a>
+          <a class="main-text" href="#">Главная</a>
         </li>
         <li class="navigation-item navigation-item--current">
-          <a href="#">Каталог продукции</a>
+          <a class="product-text" href="#">Каталог продукции</a>
         </li>
         <li class="navigation-item navigation-item--current">
-          <a href="#">Подбор программы</a>
+          <a class="selection-of-program-text" href="#">Подбор программы</a>
         </li>
       </ul>
-      <h1>Функциональное питание для котов</h1>
-      <p>Занялся собой? Займись котом!</p>
-      <a href="#" class="select-program">Подобрать программу</a>
+      <div class="food-for-cats">
+      <h1 class="cats-title">Функциональное питание для котов</h1>
+      <p class="take-text">Занялся собой? Займись котом!</p>
+     </div>
+     <a href="#" class="select-program">Подобрать программу</a>
     </nav>
   </header>
   <main class="main-container">
     <section class="product-program">
-      <ul>
+      <ul class="list-weight-loss">
         <li>
           <h2 class="visually-hidden">Похудение</h2>
           <p class="product-program-text">
@@ -67,13 +68,7 @@
           <a href="#" class="product-program-link">Каталог SLIM </a>
         </li>
         <li>
-          <picture>
-            <source width="134" height="100" type="image/svg+xml" media="(min-width:1440px)"
-              srcset="images/cat-coming.svg">
-            <source width="268" height="200" type="image/svg+xml" srcset="images/cat-coming.svg"
-              media="(min-width:768px)" alt="кот идущий">
-            <img src="images/cat-coming.svg" width="67" height="50" alt="кот идущий">
-          </picture>
+
           <h2 class="visually-hidden">Набор массы</h2>
           <p class="product-program-text">
             Заработать авторитет среди дворовых котов и даже собак? Серия Cat
@@ -100,7 +95,7 @@
             </p>
           </li>
           <li class="how-it-works__element">
-           <p class="how-it-works__description" type="image/svg+xml">
+           <p class="how-it-works__description">
               Замените один-два приема обычной еды на наше функциональное
               питание.
             </p>
@@ -116,7 +111,7 @@
     </section>
     <section class="example-case">
       <div class="example-case__wrapper">
-        <h2 class="visually-hidden">Живой пример</h2>
+        <h2 class="visually-hidden title-example">Живой пример</h2>
         <p class="example-case__description">
           Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на
           Cat Energy Slim. Отличный результат без изнуряющих тренировок! При
@@ -128,8 +123,7 @@
           <dd class="example-case__stat-value">5 КГ</dd>
           <dt class="example-case__stat-label">Затрачено времени</dt>
           <dd class="example-case__stat-value">60 ДНЕЙ</dd>
-          <dt class="example-case__stat-label">Затраты на питание</dt>
-          <dd class="example-case__cost">15 000 руб.</dd>
+          <dd class="example-case__cost">Затраты на питание:15 000 руб.</dd>
         </dl>
       </div>
     </section>
