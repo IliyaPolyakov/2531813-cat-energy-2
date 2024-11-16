@@ -11,19 +11,19 @@
 @import "blocks/navigation";
 @import "blocks/main-container";
 @import "blocks/product-program";
-@import "blocks/how-it-works";
+@import "blocks/how-works";
 @import "blocks/example-case";
 @import "blocks/example-case__wrapper";
 @import "blocks/invitation";
 @import "blocks/main-footer";
-@import "blocks/main-header-catalog";
+@import "blocks/header-catalog";
 @import "blocks/navigation-catalog";
-@import "blocks/main-container-catalog";
-@import "blocks/product-cards";
-@import "blocks/additional_products";
-@import "blocks/promotions_and_new_products";
+@import "blocks/main-catalog";
+@import "blocks/product-catalog";
+@import "blocks/additional-products.scss";
+@import "blocks/promotions-products";
 @import "blocks/invitation-catalog";
-@import "blocks/main-footer-catalog";
+@import "blocks/catalog-footer";
 
 
 
