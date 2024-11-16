@@ -2,17 +2,7 @@ li{
   list-style-type: none;
 }
 
-.main-text{
-font-family: "Oswald",sans-serif;
-font-weight: 400;
-font-size: 20px;
-line-height: 20px;
-color: $base-color-text;
-text-decoration: none;
-
-}
-
-.product-text{
+.navigation__link{
   font-family: "Oswald",sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -21,21 +11,8 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.selection-of-program-text{
-  font-family: "Oswald",sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 20px;
-  color: $base-color-text;
-  text-decoration: none;
-}
 
-.food-for-cats{
-
-  background-color: #68B738D9;
-}
-
-.cats-title{
+.navigation__title{
   font-family: "Oswald",sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -43,23 +20,31 @@ text-decoration: none;
   color:#FFFFFF;
 }
 
-.take-text{
+.navigation__text{
   font-family: "Oswald",sans-serif;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 36px;
-  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 14px;
+  color:#FFFFFF;
 }
 
-.select-program{
+
+.navigation__functional{
+  background-color: #68B738D9;
+}
+
+.navigation__select-program{
   font-family: "Oswald",sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
-  text-decoration: none;
   background-color: #68B738;
-  list-style-type: none;
+  padding: 10px 64px 10px 64px;
+  text-decoration: none;
 }
+
+
+
 
 

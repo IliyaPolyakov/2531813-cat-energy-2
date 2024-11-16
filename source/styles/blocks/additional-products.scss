@@ -7,37 +7,47 @@
 }
 
 .additional-products__text{
-font-family: "Oswald",sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-color:#222222;
-}
-
-.additional-products__orders{
-  font-family: "Lato",sans-serif;
+  font-family: "Oswald",sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color:#FFFFFF;
-  background-color: #68B738D9;
+  color: #222222;
 }
 
-.additional-products__table{
+.additional-products__info-title{
   font-family: "Lato",sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: $base-color-text;
+  color:#444444;
+
 }
 
-.additional-products__orders--present{
+.additional-products__info-price{
   font-family: "Lato",sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
+  font-size: 14px;
+  line-height: 14px;
+  color:#444444;
 }
 
+.additional-products__orders{
+color:#FFFFFF;
+font-family: "Oswald",sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+background-color: #68B738;
+text-decoration: none;
+text-transform:uppercase;
+padding: 10px 109px 10px 109px;
+}
 
-
+.additional-products__text-orders{
+  font-family: "lato",sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#FFFFFF;
+  background-color:#68B738D9;
+}
