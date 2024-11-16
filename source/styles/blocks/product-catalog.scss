@@ -1,70 +1,70 @@
-.product-catalog__title{
-  font-family: "Oswald",sans-serif;
+.product-catalog__title {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   color: $base-color-text;
 }
 
-.product-catalog__link{
+.product-catalog__link {
   text-decoration: none;
 }
 
-.product-catalog__subject{
-  font-family: "Oswald",sans-serif;
+.product-catalog__subject {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #222222;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
-.product-catalog__info-label{
-  font-family: "Lato",sans-serif;
+.product-catalog__info-label {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color:#444444;
+  color: #444444;
 }
 
-.product-catalog__info-value{
-  font-family: "Lato",sans-serif;
+.product-catalog__info-value {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color:#444444;
+  color: #444444;
 }
 
-.product-catalog__order-button{
-color:#FFFFFF;
-font-family: "Oswald",sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-background-color: #68B738;
-text-decoration: none;
-text-transform:uppercase;
-padding: 10px 109px 10px 109px;
+.product-catalog__order-button {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #68b738;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 109px;
 }
 
-.product-catalog__text{
-  font-family: "Lato",sans-serif;
+.product-catalog__text {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color:#444444;
+  color: #444444;
 }
 
-.product-catalog__show-button{
-color:#444444;
-font-family: "Oswald",sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-background-color:#F2F2F2;
-text-decoration: none;
-text-transform:uppercase;
-padding: 10px 94px 10px 94px;
-border:none;
+.product-catalog__show-button {
+  color: #444444;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 94px;
+  border: none;
 }
 
