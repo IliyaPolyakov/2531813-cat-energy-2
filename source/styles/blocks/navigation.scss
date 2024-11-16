@@ -1,9 +1,9 @@
-li{
+li {
   list-style-type: none;
 }
 
-.navigation__link{
-  font-family: "Oswald",sans-serif;
+.navigation__link {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
@@ -12,39 +12,35 @@ li{
 }
 
 
-.navigation__title{
-  font-family: "Oswald",sans-serif;
+.navigation__title {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
-.navigation__text{
-  font-family: "Oswald",sans-serif;
+.navigation__text {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
 
-.navigation__functional{
-  background-color: #68B738D9;
+.navigation__functional {
+  background-color: rgba(104, 183, 56, 0.85);
 }
 
-.navigation__select-program{
-  font-family: "Oswald",sans-serif;
+.navigation__select-program {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
-  background-color: #68B738;
-  padding: 10px 64px 10px 64px;
+  color: #ffffff;
+  background-color: rgba(104, 183, 56, 1);
+  padding: 10px 64px;
   text-decoration: none;
 }
-
-
-
-
 
