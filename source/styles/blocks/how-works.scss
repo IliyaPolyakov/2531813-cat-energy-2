@@ -10,4 +10,46 @@
   font-size: 14px;
   line-height: 14px;
   color: $base-color-text;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.how-works__item {
+  content: "";
+  background-color: rgb(104,183,56);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.how-works__item--sheet {
+  background-image: url("/icons/sheet.svg");
+  background-size: 30px 32px;
+}
+
+.how-works__item--powder {
+  background-image: url("/icons/powder.svg");
+  background-size: 60px 60px;
+}
+
+.how-works__item--cutlery {
+  background-image: url("/icons/cutlery.svg");
+  background-size: 25px 30px;
+}
+
+.how-works__item--scales {
+  background-image: url("/icons/scales.svg");
+  background-size: 26px 31px;
+}
+
+.how-works__list {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 300px;
 }
