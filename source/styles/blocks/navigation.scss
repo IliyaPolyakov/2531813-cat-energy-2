@@ -18,6 +18,8 @@ li {
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
+  position: absolute;
+  z-index: 1;
 }
 
 .navigation__text {
@@ -26,11 +28,8 @@ li {
   font-size: 14px;
   line-height: 14px;
   color: #ffffff;
-}
-
-
-.navigation__functional {
-  background-color: rgba(104, 183, 56, 0.85);
+  position: absolute;
+  z-index: 1;
 }
 
 .navigation__select-program {
@@ -42,5 +41,34 @@ li {
   background-color: rgba(104, 183, 56, 1);
   padding: 10px 64px;
   text-decoration: none;
+}
+
+.navigation__toggle {
+  background-image: url("/icons/burger-decoration.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: rgb(255 255 255);
+}
+
+.navigation__toggle--close {
+  background-image: url("/icons/cross.svg");
+}
+
+.navigation__functional {
+  position: relative;
+}
+
+.navigation__green {
+  background-image: url("/images/green-fon.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 302px;
+  background-size: cover;
+  background-position: center;
 }
 
