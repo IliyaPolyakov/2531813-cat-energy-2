@@ -41,18 +41,18 @@
   justify-content: space-between;
 }
 
-.social-list {
+.main-footer__social-list {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.social-item {
+.main-footer__social-item {
   margin-right: 26px;
 }
 
-.social-item:last-child {
+.main-footer__social-item:last-child {
   margin-right: 0;
 }
 
@@ -68,7 +68,7 @@
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;
-  transition: all, all 1.3s;
+  transition: all 1.3s;
 }
 
 
