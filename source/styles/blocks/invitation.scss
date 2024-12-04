@@ -4,6 +4,20 @@
   font-size: 16px;
   line-height: 20px;
   color: #111111;
+  width: 140px;
+  height: 60px;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #111111;
+    width: 140px;
+    height: 60px;
+  }
 }
 
 .invitation__address-link {
@@ -13,4 +27,56 @@
   line-height: 20px;
   color: #444444;
   text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__address-link {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #444444;
+    text-decoration: none;
+    width: 157px;
+    height: 80px;
+  }
+}
+
+.invitation__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 786px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .invitation__wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 1440px;
+    display: flex;
+    margin-left: 110px;
+    height: 400px;
+    align-items: center;
+  }
+}
+
+
+.invitation__address {
+  width: 140px;
+  height: 60px;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__address {
+    // width: 768px;
+    height: 80px;
+  }
 }
