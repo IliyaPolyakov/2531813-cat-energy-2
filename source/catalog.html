@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="favicon.ico"><!-- 32×32 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="favicons/180.png"><!-- 180×180 -->
+  <link rel="apple-touch-icon" href="favicons/180.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles/styles.css">
   <title>Каталог продукции</title>
@@ -17,18 +17,18 @@
       <a class="navigation-logo">
         <picture>
           <source width="70" height="59" type="image/svg+xml" media="(min-width:1440px)"
-            srcset="images/logo-desktop.svg" />
+            srcset="images/logo-desktop.svg">
           <source width="60" height="50" type="image/svg+xml" media="(min-width:768px)"
-            srcset="images/logo-tablet.svg" />
+            srcset="images/logo-tablet.svg">
           <img class="navigation-catalog__logo-image" src="images/logo-mobile.svg" width="33" height="38"
-            alt="логотип кота"/>
+            alt="логотип кота">
         </picture>
       </a>
       <a class="navigation-catalog__logo-text">
           <img class="navigation-catalog__text-image" src="images/cat_energy_text.svg" width="101" height="18"
-            alt="текст кот энергия" />
+            alt="текст кот энергия">
       </a>
-      <button class="navigation-catalog__toggle navigation-catalog__toggle--close" type="button">
+      <button class="navigation-catalog__toggle navigation-catalog__toggle--close" type="button" aria-label="открыть-закрыть меню">
         </button>
        </nav>
   </header>
@@ -207,18 +207,18 @@
              <a class="additional-products__orders" href="#">заказать</a>
         </li>
       </ul>
-      <div>
+      <div class="additional-products__cat-backpack">
         <p class="additional-products__orders">Закажите все и получите чехол для кота в подарок!</p>
       </div>
     </section>
      <section class="promotions-products">
-      <h2 class="promotions-products__title" items>Акции и новинки</h2>
+      <h2 class="promotions-products__title">Акции и новинки</h2>
       <p class="promotions-products__text">
         Подпишитесь на наши новости и не пропустите ни одного предложения!
       </p>
       <form method="post" action="https://echo.htmlacademy.ru">
         <label for="user-name"></label>
-        <input id="user-name" type="email" required />
+        <input id="user-name" type="email" required>
         <button class="promotions-products__subscribe-button" type="submit">подписаться</button>
       </form>
     </section>
@@ -235,7 +235,7 @@
     <div class="catalog-footer__wrapper">
       <a>
         <img class="catalog-footer__logo-text" src="images/cat_energy_text.svg" width="101" height="18"
-              alt="текст кот энергия" />
+              alt="текст кот энергия">
        </a>
       <div class="catalog-footer__social">
         <ul class="catalog-footer__social-list">
