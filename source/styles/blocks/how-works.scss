@@ -1,6 +1,10 @@
 .how-works {
-  // margin-top: 180px;
   position: relative;
+}
+
+.how-works__wrapper {
+  width: 280px;
+  height: 380px;
 }
 
 @media (min-width: $desktop-width) {
@@ -20,18 +24,19 @@
 
 
 .how-works__title {
-  font-family: "Oswald", sans-serif;
+  font-family: $font-display;
   font-size: 36px;
   line-height: 40px;
   color: $base-color-text;
-  margin: 0;
+  margin: 0 0 40px;
   padding: 0;
   display: flex;
+  width: 375px;
 }
 
 @media (min-width: $tablet-width) {
   .how-works__title {
-    font-family: "Oswald", sans-serif;
+    font-family: $font-display;
     font-size: 60px;
     line-height: 60px;
     color: $base-color-text;
@@ -41,12 +46,12 @@
 }
 
 .how-works__text {
-  font-family: "Lato", sans-serif;
+  font-family: $font-stack;
   font-size: 14px;
   line-height: 14px;
   color: $base-color-text;
   width: 200px;
-  margin-left: 100px;
+  margin-left: 80px;
   margin-top: 5px;
   position: absolute;
   z-index: 1;
@@ -54,7 +59,7 @@
 
 @media (min-width: $desktop-width) {
   .how-works__text {
-    font-family: "Lato", sans-serif;
+    font-family: $font-stack;
     font-size: 14px;
     line-height: 14px;
     color: $base-color-text;
@@ -64,7 +69,6 @@
     position: absolute;
     z-index: 1;
     top: 300px;
-    // left: 50px;
   }
 }
 
@@ -135,10 +139,6 @@
     width: 134px;
     height: 280px;
     position: absolute;
-    // left: 370px;
-    // right: 0;
-    // bottom: 0;
-    // top: 0;
     inset: 0 0 0 550px;
   }
 }
@@ -200,7 +200,6 @@
     position: absolute;
     top: 10px;
     left: 1340px;
-
   }
 }
 
@@ -210,6 +209,7 @@
   flex-direction: column;
   width: 320px;
   height: 300px;
+  padding: 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -234,6 +234,5 @@
   .how-works__item {
     background-color: rgb(104, 183, 56);
     padding: 20px;
-    // display: flex;
   }
 }

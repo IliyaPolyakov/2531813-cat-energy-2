@@ -1,41 +1,42 @@
 .invitation__title {
-  font-family: "Oswald", sans-serif;
+  font-family: $font-display;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #111111;
+  color: $darkGray;
   width: 140px;
   height: 60px;
+  margin-left: 20px;
 }
 
 @media (min-width: $tablet-width) {
   .invitation__title {
-    font-family: "Oswald", sans-serif;
+    font-family: $font-display;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    color: #111111;
+    color: $darkGray;
     width: 140px;
     height: 60px;
   }
 }
 
 .invitation__address-link {
-  font-family: "Lato", sans-serif;
+  font-family: $font-stack;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #444444;
+  color: $slateGray;
   text-decoration: none;
 }
 
 @media (min-width: $tablet-width) {
   .invitation__address-link {
-    font-family: "Lato", sans-serif;
+    font-family: $font-stack;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    color: #444444;
+    color: $slateGray;
     text-decoration: none;
     width: 157px;
     height: 80px;
@@ -76,7 +77,21 @@
 
 @media (min-width: $tablet-width) {
   .invitation__address {
-    // width: 768px;
     height: 80px;
+  }
+}
+
+
+.invitation__mobile-map {
+  background-image: url("/icons/mobile-map.svg");
+  width: 320px;
+  height: 362px;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__mobile-map {
+    width: 768px;
+    height: 400px;
+    background-image: url("/icons/mobile-map.svg");
   }
 }

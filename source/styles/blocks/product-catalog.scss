@@ -1,5 +1,5 @@
 .product-catalog__title {
-  font-family: "Oswald", sans-serif;
+  font-family: $font-display;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
@@ -8,7 +8,7 @@
 }
 
 .product-catalog__title-main {
-  font-family: "Oswald", sans-serif;
+  font-family: $font-display;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
@@ -16,7 +16,7 @@
 }
 
 .product-catalog__title-more {
-  font-family: "Oswald", sans-serif;
+  font-family: $font-display;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -28,7 +28,7 @@
 }
 
 .product-catalog__subject {
-  font-family: "Oswald", sans-serif;
+  font-family: $font-display;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -37,24 +37,24 @@
 }
 
 .product-catalog__info-label {
-  font-family: "Lato", sans-serif;
+  font-family: $font-stack;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #444444;
+  color: $slateGray;
 }
 
 .product-catalog__info-value {
-  font-family: "Lato", sans-serif;
+  font-family: $font-stack;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #444444;
+  color: $slateGray;
 }
 
 .product-catalog__order-button {
-  color: #ffffff;
-  font-family: "Oswald", sans-serif;
+  color: $whiteColor;
+  font-family: $font-display;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -65,16 +65,16 @@
 }
 
 .product-catalog__text {
-  font-family: "Lato", sans-serif;
+  font-family: $font-stack;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #444444;
+  color: $slateGray;
 }
 
 .product-catalog__show-button {
-  color: #444444;
-  font-family: "Oswald", sans-serif;
+  color: $slateGray;
+  font-family: $font-display;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;

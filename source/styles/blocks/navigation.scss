@@ -1,5 +1,7 @@
-li {
-  list-style-type: none;
+.navigation {
+  li {
+    list-style-type: none;
+  }
 }
 
 .navigation__toggle {
@@ -15,16 +17,12 @@ li {
 
 .navigation__toggle--close {
   background-image: url("/icons/burger-decoration.svg");
+  margin-top: 20px;
 }
 
-
-.main-header__logo-image {
-  margin-left: 20px;
-  margin-right: 56px;
-}
 
 .main-header__logo-text {
-  margin-right: 65px;
+  margin: 23px 65px 0 0;
 }
 
 
@@ -35,10 +33,16 @@ li {
   }
 }
 
+@media (min-width: 320px) {
+  .navigation-list {
+    display: none;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .navigation__link {
     position: static;
-    font-family: "Oswald", sans-serif;
+    font-family: $font-display;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -50,7 +54,7 @@ li {
 @media (min-width: $desktop-width) {
   .navigation__link {
     position: static;
-    font-family: "Oswald", sans-serif;
+    font-family: $font-display;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
